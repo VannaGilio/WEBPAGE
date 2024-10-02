@@ -68,8 +68,21 @@ header{
 }
 
 main{
-    flex-grow: ;
+    flex-grow: 1;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    flex-direction: column;
 }
 .subtitulo{
-    background-color: aquamarine;
+    background-color: bisque;
+    width: 100%;
+    height: 5%;
+    background-image: url(./img/subtitulo.png);
+    background-repeat: no-repeat no-repeat;
+}
+
+.titulo h1{
+    
 }

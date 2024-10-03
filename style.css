@@ -30,29 +30,29 @@ header{
     height: 100%;
     width: 20%;
     display: flex;
-    flex-direction: 5%;
     background-color: rgb(255, 255, 255);
     background-image: url(./img/logo.png);
     background-repeat: no-repeat no-repeat;
     background-size: 80%;
+    background-position: center;
 }
 
 .menu ul{
     display: flex;
     gap: 25px;
     font-size: 20px;
-    transform: translate(-20%, 165%); 
+    transform: translate(-5vw, 1.8vw); 
     background-color: rgb(255, 255, 255);
 }
 
 .search ul{
     font-size: 20px;
-    transform: translate(850%, 165%); 
-    
+    transform: translate(53vw, 1.8vw); 
 }
 
+
 .search button{
-    height: 30%;
+    height: 35%;
     width: 180%;
     background-color: black;
     color:white;
@@ -60,7 +60,7 @@ header{
     border-radius: 3vh;
     top:20%;
     right: 0;
-    transform: translate(560%,35%); 
+    transform: translate(60vw, 0.3vw); 
 }
 #linha{
     width: 100%;
@@ -72,17 +72,62 @@ main{
     display: flex;
     height: 100%;
     width: 100%;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
     flex-direction: column;
 }
 .subtitulo{
-    background-color: bisque;
+    background-color: rgb(255, 255, 255);
     width: 100%;
-    height: 5%;
+    height: 8%;
     background-image: url(./img/subtitulo.png);
     background-repeat: no-repeat no-repeat;
+    background-size: 3%;
+    background-position: 60vh;
+    margin: 25px;
+    background-color: rgb(255, 255, 255);
+
+}
+.subtitulo h3{
+    width: 15%;
+    height: 45%;
+    border-radius: 3vh;
+    border: 2px solid rgb(211, 205, 205);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: 1%;
+    margin-left: 36%;
+}
+.subtitulo h4{
+    width: 10%;
+    height: 45%;
+    /* line-height: 130%; */
+    border-radius: 3vh;
+    border: 2px solid rgb(211, 205, 205);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    margin: -2.7%;
+    font-size: 18px;
+    margin-left: 52%;
 }
 
 .titulo h1{
-    
+    font-size: 100px;
+    margin-top: -2%;
+}
+
+.info h4{
+    font-size: 18px;
+    margin: -5.5%;
+    margin-left: 75%;
+}
+
+.titulo button{
+    height: 160%;
+    width: 16%;
+    background-color: black;
+    color:white;
+    font-size: 16px;
+    border-radius: 3vh;
+    transform: translate(67vw, 7vw); 
+    margin: 0%;
 }

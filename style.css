@@ -20,6 +20,7 @@ body {
     padding-inline: 0px;
     flex-direction: column;
     background-color: rgb(146, 53, 53);
+
 }
 header{
     height: 10vh;
@@ -109,15 +110,16 @@ main{
     margin-left: 52%;
 }
 
-.titulo h1{
-    font-size: 90px;
-    margin-top: -1%;
+.titulo_h1{
+    font-size: 11vh;
+    margin: 4%;
+    margin-top: -2%;
 }
 
 .info h4{
     font-size: 18px;
-    margin: -6%;
-    margin-left: 73.2%;
+    margin: -9%;
+    margin-left: 74%;
 }
 
 .titulo button{
@@ -126,23 +128,46 @@ main{
     color:white;
     font-size: 16px;
     border-radius: 3vh;
-    transform: translate(72.5vw, 7vw); 
-    margin: 0%;
+    transform: translate(74vw, 7vw); 
+    margin-top: 4%;
 }
 
 #paisagem_g {
     width: 35%;
-    height: 55%;
+    height: 50%;
     position: absolute;
     left:33%;
-    margin-top: 8%;
+    margin-top: 9%;
 }
 
 #paisagem_p{
-    width: 22%;
-    height: 33%;
+    width: 20%;
+    height: 28%;
     position: absolute;
-    left: 73.2%;
-    margin-top: 8%;
+    left: 74%;
+    margin-top: 9%;
 }
 
+.texto {
+    font-size: 5vh;
+    margin: 4%;
+    margin-top: 9%;
+}
+
+.descricao{
+    margin: 4%;
+    margin-top: -1%;
+}
+
+#pessoas {
+    width: 8%;
+    margin: 3.5%;
+    margin-top: -1%;
+    border-right: solid 2px;
+    background-color: black;
+}
+
+.informacao_h3{
+    margin: 13.5%;
+    margin-top: -6.3%;
+}

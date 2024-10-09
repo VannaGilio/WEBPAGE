@@ -110,23 +110,39 @@ main{
 }
 
 .titulo h1{
-    font-size: 100px;
-    margin-top: -2%;
+    font-size: 90px;
+    margin-top: -1%;
 }
 
 .info h4{
     font-size: 18px;
-    margin: -5.5%;
-    margin-left: 75%;
+    margin: -6%;
+    margin-left: 73.2%;
 }
 
 .titulo button{
-    height: 160%;
-    width: 16%;
+    width: 12%;
     background-color: black;
     color:white;
     font-size: 16px;
     border-radius: 3vh;
-    transform: translate(67vw, 7vw); 
+    transform: translate(72.5vw, 7vw); 
     margin: 0%;
 }
+
+#paisagem_g {
+    width: 35%;
+    height: 55%;
+    position: absolute;
+    left:33%;
+    margin-top: 8%;
+}
+
+#paisagem_p{
+    width: 22%;
+    height: 33%;
+    position: absolute;
+    left: 73.2%;
+    margin-top: 8%;
+}
+

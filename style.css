@@ -19,7 +19,7 @@ body {
     display: flex;
     padding-inline: 0px;
     flex-direction: column;
-    background-color: rgb(146, 53, 53);
+    background-color: rgb(255, 255, 255);
 
 }
 header{
@@ -53,15 +53,15 @@ header{
 
 
 .search button{
-    height: 35%;
-    width: 180%;
+    height: 4%;
+    width: 10%;
     background-color: black;
     color:white;
     font-size: 18px;
     border-radius: 3vh;
-    top:20%;
-    right: 0;
-    transform: translate(60vw, 0.3vw); 
+    position: absolute;
+    left: 84.5%;
+    top: 2.5%;
 }
 
 hr {
@@ -83,53 +83,61 @@ main{
     background-image: url(./img/subtitulo.png);
     background-repeat: no-repeat no-repeat;
     background-size: 3%;
-    background-position: 65vh;
+    background-position: 55vh;
     margin: 25px;
     background-color: rgb(255, 255, 255);
 
 }
 .subtitulo h3{
     width: 15%;
-    height: 45%;
+    height: 40%;
     border-radius: 3vh;
     border: 2px solid rgb(211, 205, 205);
     text-align: center;
     background-color: rgb(255, 255, 255);
-    margin: 1%;
-    margin-left: 36%;
+    padding-top: 0.2%;
+    position: relative;
+    left: 36%;
+    top: 2.2vh;
 }
 .subtitulo h4{
     width: 10%;
-    height: 45%;
+    height: 40%;
     border-radius: 3vh;
     border: 2px solid rgb(211, 205, 205);
     text-align: center;
     background-color: rgb(255, 255, 255);
-    margin: -2.7%;
     font-size: 18px;
-    margin-left: 52%;
+    padding-top: 0.2%;
+    position: relative;
+    left: 52.5%;
+    top: -0.8vh;
 }
 
 .titulo_h1{
     font-size: 11vh;
-    margin: 4%;
-    margin-top: -2%;
+    position: absolute;
+    left:4%;
+    top: 17%;
 }
 
 .info h4{
-    font-size: 18px;
-    margin: -9%;
-    margin-left: 74%;
+    font-size: 19px;
+    position: absolute;
+    left:74%;
+    top: 21%;
 }
 
 .titulo button{
-    width: 12%;
+    height: 4%;
+    width: 10%;
     background-color: black;
     color:white;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 3vh;
-    transform: translate(74vw, 7vw); 
-    margin-top: 4%;
+    position: absolute;
+    left: 74%;
+    top: 28%;
 }
 
 #paisagem_g {
@@ -150,57 +158,73 @@ main{
 
 .texto {
     font-size: 5vh;
-    margin: 4%;
-    margin-top: 9%;
+    position: relative;
+    left: 4%;
+    top: 14vh;
 }
 
 .descricao{
-    /* margin: 4%;
-    margin-top: -1%; *****************************************/
-    transform: translate(18vh, -12vh);
+    position: relative;
+    left: 4.2%;
+    top: 16vh;
 }
 
 #pessoas {
     width: 8%;
-    transform: translate(6.5vh, -6vh);
+    position: relative;
+    left: 3.6%;
+    top: 21vh;
     border-right: solid 2px;
     background-color: black;
 }
 
 .informacao_h3{
-    transform: translate(24vh, -11.5vh);
+    position: relative;
+    left: 13.4%;
+    top: 16vh;
 }
 
 .info2_h3{
-    transform: translate(3.9%, -19vh)
+    position: relative;
+    left: 4%;
+    top: 22vh;
 }
 
 .have{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 10px;
+    position: relative;
+    left: 0%;
+    top: 7vh;
 }
 
 .transfer {
     font-size: 18px;
+    position: relative;
+    left: 3.8%;
+    top: 19.8vh;
     border: 1px solid;
+    width: 6%;
+    padding-left: 1.5%;
+    padding: -10%;
     border-radius: 3vh;
-    padding: 12px; /* Um padding positivo para as divs */
-    width: auto;
 }
 
 .outfit {
     font-size: 18px;
+    position: relative;
+    left: 10.4%;
+    top: 17.7vh;
     border: 1px solid;
+    width: 5%;
+    padding-left: 1.3%;
+    padding: -10%;
     border-radius: 3vh;
-    padding: 10px; /* Um padding positivo para as divs */
-    width: auto;
 }
 
 .food {
     font-size: 18px;
-    transform: translate(6.8vh, -11.5vh);
+    position: relative;
+    left: 3.8%;
+    top: 18.4vh;
     border: 1px solid;
     width: 8%;
     padding-left: 1.5%;
@@ -210,7 +234,9 @@ main{
 
 .guide{
     font-size: 18px;
-    transform: translate(22.2vh, -2vh);
+    position: relative;
+    left: 12.4%;
+    top: 16.4vh;
     border: 1px solid;
     width: 5%;
     padding-left: 1.5%;
@@ -220,20 +246,71 @@ main{
 
 .tour{
     font-size: 18px;
-    transform: translate(6.8vh, -1vh);
+    position: relative;
+    left: 3.8%;
+    top: 17vh;
     border: 1px solid;
     width: 4.5%;
     padding-left: 1.3%;
-    padding: -10%;
     border-radius: 3vh;
 }
 
 .photographer{
     font-size: 18px;
-    transform: translate(15.5vh, -3vh);
+    position: relative;
+    left: 8.9%;
+    top: 15vh;
     border: 1px solid;
     width: 8.5%;
     padding-left: 1.8%;
-    padding: -10%;
     border-radius: 3vh;
+}
+
+.titulo_h2{
+    font-size: 5vh;
+    position: relative;
+    left: 74%;
+    top: 5vh;
+}
+
+.texto_d_h3{
+    font-size: 19px;
+    position: relative;
+    left: 84%;
+    top: 1vh;
+}
+
+.palavra_d{
+    font-size: 18px;
+    position: relative;
+    left: 74%;
+    top: 7vh;
+}
+
+.tracinho{
+    width: 5%;
+    position: relative;
+    left: 79%;
+    top: 6vh;
+}
+
+.numero{
+    font-size: 18px;
+    position: relative;
+    left: 85%;
+    top: 5vh;
+}
+
+#seta1{
+    width: 3%;
+    position: relative;
+    left: 87%;
+    top: 1.5vh;
+}
+
+#seta2{
+    width: 3.2%;
+    position: relative;
+    left: 87.8%;
+    top: 1.5vh;
 }

@@ -41,16 +41,26 @@ header{
 .menu ul{
     display: flex;
     gap: 25px;
-    font-size: 20px;
-    transform: translate(-5vw, 1.8vw); 
+    font-size: 23px;
+    position: relative;
+    left: -10%;
+    top: 3.8vh; 
     background-color: rgb(255, 255, 255);
 }
 
 .search ul{
-    font-size: 20px;
-    transform: translate(53vw, 1.8vw); 
+    font-size: 25px;
+    position: relative;
+    left: 100vh;
+    top: 3.5vh;
 }
 
+#seach_icon{
+    width: 8%;
+    position: relative;
+    left: 250%;
+    top: 0.8vh;
+}
 
 .search button{
     height: 4%;
@@ -86,7 +96,6 @@ main{
     background-position: 55vh;
     margin: 25px;
     background-color: rgb(255, 255, 255);
-
 }
 .subtitulo h3{
     width: 15%;
@@ -314,3 +323,4 @@ main{
     left: 87.8%;
     top: 1.5vh;
 }
+

@@ -1,5 +1,6 @@
 # Landing Page - Iceland
 ![](./img/screenshot.png)
+1920x1080
 
 ## Landing Page - FIGMA
 ![](./img/figma.png)
